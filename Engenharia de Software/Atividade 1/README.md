@@ -1,3 +1,55 @@
 # Diagrama de Classes
-![Diagrama](https://user-images.githubusercontent.com/89882058/158024857-06ed43c6-9ea3-41c1-9a1e-b284be76e6d3.png)
+<div style="display: inline_block"><br>
+  <img align="center" alt="Diagrama" height="500" width="900" src="https://github.com/PatrickSouzza/Bertoti/blob/main/Engenharia%20de%20Software/Atividade%201/Imagens/Diagrama.png">
+</div>
+
 # Wireframe
+
+### Tela de Reunião e Equipes
+
+<div style="display: inline_block"><br>
+  <img align="center" alt="Diagrama" height="500" width="900" src="https://github.com/PatrickSouzza/Bertoti/blob/main/Engenharia%20de%20Software/Atividade%201/Imagens/tela1.png">
+</div>
+
+
+- Com base nos estudos feitos em sala, nesta tela podemos observar as seguintes Heurísticas:
+ 
+  - Heurística 2: Correspondência entre o sistema e o mundo real
+  - Heurística 3: Controle e liberdade do usuário
+  - Heurística 4: Consistência e padrões
+  - Heurística 5: Prevenção de erros
+  - Heurística 10: Ajuda e documentação
+
+### Tela de Tarefas
+
+<div style="display: inline_block"><br>
+  <img align="center" alt="Diagrama" height="500" width="900" src="https://github.com/PatrickSouzza/Bertoti/blob/main/Engenharia%20de%20Software/Atividade%201/Imagens/tela2.png">
+</div>
+
+
+- Nesta tela podemos observar as seguintes Heurísticas:
+  - Heurística 2: Correspondência entre o sistema e o mundo real
+  - Heurística 3: Controle e liberdade do usuário
+  - Heurística 4: Consistência e padrões
+  - Heurística 5: Prevenção de erros 
+  - Heurística 8: Design estético e minimalista
+
+### Tela de Notificações
+
+<div style="display: inline_block"><br>
+  <img align="center" alt="Diagrama" height="500" width="900" src="https://github.com/PatrickSouzza/Bertoti/blob/main/Engenharia%20de%20Software/Atividade%201/Imagens/tela3.png">
+</div>
+
+
+- Nesta tela podemos observar as seguintes Heurísticas:
+  - Heurística 2: Correspondência entre o sistema e o mundo real
+  - Heurística 3: Controle e liberdade do usuário
+  - Heurística 4: Consistência e padrões
+  - Heurística 5: Prevenção de erros 
+  - Heurística 8: Design estético e minimalista
+
+# Story Cards
+
+<div style="display: inline_block"><br>
+  <img align="center" alt="Diagrama" height="500" width="900" src="https://github.com/PatrickSouzza/Bertoti/blob/main/Engenharia%20de%20Software/Atividade%201/Imagens/Cards.png">
+</div>
