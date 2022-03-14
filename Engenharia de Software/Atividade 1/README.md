@@ -1,9 +1,13 @@
-# Diagrama de Classes
+# Ciclo de vida de desenvolvimento de software 
+
+- Atividade desenvolvida na Aula de Enganharia de Software
+
+## Diagrama de Classes
 <div style="display: inline_block"><br>
   <img align="center" alt="Diagrama" height="500" width="900" src="https://github.com/PatrickSouzza/Bertoti/blob/main/Engenharia%20de%20Software/Atividade%201/Imagens/Diagrama.png">
 </div>
 
-# Wireframe
+## Wireframe
 
 ### Tela de Reunião e Equipes
 
@@ -48,7 +52,7 @@
   - Heurística 5: Prevenção de erros 
   - Heurística 8: Design estético e minimalista
 
-# Story Cards
+## Story Cards
 
 <div style="display: inline_block"><br>
   <img align="center" alt="Diagrama" height="500" width="900" src="https://github.com/PatrickSouzza/Bertoti/blob/main/Engenharia%20de%20Software/Atividade%201/Imagens/Cards.png">
