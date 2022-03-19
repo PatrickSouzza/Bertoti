@@ -57,3 +57,7 @@
 <div style="display: inline_block"><br>
   <img align="center" alt="Diagrama" height="500" width="900" src="https://github.com/PatrickSouzza/Bertoti/blob/main/Engenharia%20de%20Software/Atividade%201/Imagens/Cards.png">
 </div>
+
+## Diagrama de Classes da Plataforma de Ensino
+![Captura de tela 2022-03-19 122105](https://user-images.githubusercontent.com/89882058/159135235-796bb4b4-7e39-47c2-aa2c-91c722c566e3.png)
+
