@@ -1,2 +1,0 @@
-# Pratica_React
-
