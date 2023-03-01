@@ -21,17 +21,17 @@ A equipe do Fluffy desenvolveu um software web para a empresa Iacit que possibil
 <details>
 <summary>Front-End</summary>
   
-  Desenvolvimento de telas, estilização e manutenção das mesmas, estilização dos graficos das telas de relatórios.
+ - Desenvolvimento de telas, estilização e manutenção das mesmas, estilização dos graficos das telas de relatórios.
 
 </details>
 
 <details>
 <summary>Back-End</summary>
   
-  Desenvolvimento do código automacao.py em que todos os CSV's são baixados e substituidos na maquina conforme o ano de utilização do código.
+  - Desenvolvimento do código automacao.py em que todos os CSV's são baixados e substituidos na maquina conforme o ano de utilização do código.
   
   
-  Desenvolvimento do CRUD de Usuários.
+ - Desenvolvimento do CRUD de Usuários.
 </details>
   
 
