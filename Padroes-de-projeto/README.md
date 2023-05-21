@@ -1,6 +1,22 @@
 # Diagrama UML
 <p align="center">
   
-  ![Captura de tela 2023-03-01 221531](https://user-images.githubusercontent.com/89882058/222306041-55ebb366-8f16-4ffa-a198-a0f55bed17e2.png)
+  ## Combining Patterns
+  <img src="CombiningPatterns/img/Cobining.png">
+  
+   ## Composite
+  <img src="Composite/img/composite.png">
+  
+   ## Facade
+  <img src="Facade/img/facade.png">
+  
+   ## Observer
+  <img src="Observer/img/Observer.png">
+  
+   ## Singleton
+  <img src="Singleton/img/Singleton.png">
+  
+   ## Strategy
+  <img src="Strategy/img/Strategy.png">
 
 <p align="center">
