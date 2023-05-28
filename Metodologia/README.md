@@ -1,4 +1,52 @@
-# Projeto Integrador 2º semestre de 2022
+# Portifólio - Patrick Souza
+<div align="center">
+<img src="https://raw.githubusercontent.com/PatrickSouzza/Bertoti/main/Metodologia/WhatsApp%20Image%202023-05-28%20at%2012.24.29.jpeg" height="500"/>
+</div>
+
+## Introdução
+24 anos, estudante do 4º semestre de Banco de Dados pela FATEC de São José dos Campos (Prof. Jessen Vidal) onde por meio de seu projeto integrador que é feito em conjunto com diversas empresas, pude ter contato com clientes e desafios reais que afetam não só empresas de pequeno porte mas até mesmo as multinacionais.
+Ao longo destes 4 semestres venho desenvolvendo não apenas as Hard Skill's mas também as Soft Skill's tendo trabalhado grande parte do tempo em equipes de Metodologia Ágil.
+
+<h3>Para mais informações e contato:</h3>
+
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/PatrickSouzza)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/PatrickSouzza/)
+<a href = "mailto:emanuelecampos14@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+
+
+## Habilidades e Proficiências
+
+
+<details>
+<summary>BackEnd</summary>
+
+* [Java](https://www.java.com/pt-BR/?msclkid=7faa842eb8f811ecab39772d4c1ae90b)
+* [Python](https://www.python.org/downloads/)
+* [Spring boot](https://spring.io/projects/spring-boot)
+* [JavaScript](https://www.javascript.com/)
+* [Node.js](https://nodejs.org/en)
+
+</details>
+
+<details>
+<summary>Front-End</summary>
+
+* [Vue.js](https://vuejs.org/)
+* [JavaScript](https://www.javascript.com)
+* [HTML](https://www.w3schools.com/css/)
+* [CSS](https://www.w3schools.com/css/)
+
+</details>
+
+<details>
+<summary>Banco de Dados</summary>
+
+* Utilizo banco de dados desde 2021, já utilizei mySQL, PostgreeSQL, MariaDB e Oracle. Tenho conhecimentos em comandos DDL, DCL e DML. Tenho Experiência desenvolvendo tabelas, realizando inserção de novos registros, estabelecendo restrições e estipulando diretrizes no banco de dados, além de desempenhar funções administrativas essenciais para sua gestão eficiente.
+
+</details>
+
+
+## Projeto Integrador 2º semestre de 2022
 ## Empresa parceira:
 IACIT
 
@@ -14,7 +62,11 @@ Desenvolver uma aplicação capaz de tratar, filtrar e exibir dados metereológi
 
 ![cabecario (3)](https://user-images.githubusercontent.com/89882058/222289468-de548f06-66b0-461f-aa74-86c6f90f5907.jpg)
 
-A equipe do Fluffy desenvolveu um software web para a empresa Iacit que possibilita a automatização desde o download, o processamento dos dados e a persistência dos dados no banco de dados de forma simplificada. Além disso, também será possível realizar a filtragem desses dados por temperatura, umidade, estações, vento, pressão atmosférica, radiação global e precipitação, além da diversa visualizações desses dados. Contudo, vamos entregar também diferentes níveis de usuários juntamente com o painel administrativo possibilitando a exportação dos relatórios a partir dos dados.
+A equipe do Fluffy desenvolveu um software web para a empresa Iacit que possibilita a automatização desde o download, o processamento dos dados e a persistência dos dados no banco de dados de forma simplificada. Além disso, também será possível realizar a filtragem desses dados por temperatura, umidade, estações, vento, pressão atmosférica, radiação global e precipitação, além da diversa visualizações desses dados. Contudo, foi entregue também diferentes níveis de usuários juntamente com o painel administrativo possibilitando a exportação dos relatórios a partir dos dados.
+
+<div align="center">
+<a href="#" target="_blank"><img style="margin: 10px" src="https://github.com/fluffyfatec/Iacit/blob/Sprint-2/GIT/VID-20221009-WA0013%20(2).gif" height="500" /></a>
+</div>
 
 ## Contibuições individuais:
 
