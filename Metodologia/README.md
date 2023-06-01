@@ -73,17 +73,77 @@ A equipe do Fluffy desenvolveu um software web para a empresa Iacit que possibil
 <details>
 <summary>Front-End</summary>
   
- - Desenvolvimento de telas, estilização e manutenção das mesmas, estilização dos graficos das telas de relatórios.
+  <p>- Desenvolvimento das telas:</p>
+  <p>    *Login</p>
+  <p>    *Estatisticas</p>
+  <p>-Estilização e manutenção das telas, para inserção de media queries para a portabilidade para mobile.</p>
+  <p>-Estilização dos graficos das telas de relatórios.</p>
 
 </details>
 
 <details>
 <summary>Back-End</summary>
+
+  ### Código de Download
+    class Automacao:
+
+    logging.basicConfig(filename="log.txt", level=logging.DEBUG,
+                        format="%(asctime)s %(message)s", filemode="a")
+
+    def download_df(self, ano: int):
+        url = "https://portal.inmet.gov.br/uploads/dadoshistoricos/{}.zip".format(ano)
+        endereco = os.path.join("DF","{}.zip".format(ano))
+        try:
+            os.mkdir("DF/{}".format(ano))   
+        except:
+            shutil.rmtree(f"DF/{ano}", ignore_errors=False, onerror=None)
+            os.mkdir("DF/{}".format(ano))
+
+        status = requests.get(url)
+
+        if status.status_code == requests.codes.OK:
+            with open(endereco, "wb") as novo_arquivo:
+                novo_arquivo.write(status.content) 
+        else:
+            status.raise_for_status()
+        return
+
+  Esse código foi desenvolvido para baixar a base de dados por meio de um URL base e ser passado na variavel o ano em que o código é rodado.
+  Também cria um diretorio "DF/" para cada ano baixado.
+
+    def extract(self, ano: int):
+        zip_ref = zipfile.ZipFile("DF/{}.zip".format(ano), "r")
+        reference = ("DF/{}".format(ano))
+        zip_ref.extractall(reference)
+        zip_ref.close()
+        os.remove("DF/{}.zip".format(ano))
+        print("{} Extraido".format(ano))
+        return
+
+  Essa parte do código é feita a extração dos dados quem vem compactados e distribuidos em pastas separadas por ano.
+    @staticmethod
+    def auto_run():
+
+        auto = Automacao()
+    
+        # Criando a variavel do ano atual 
+        date_td = date.today()
+        year_td = date_td.year
+
+        # Para cada ano de 2020 até o ano atual executar o codigo
+        for i in range(2020, year_td + 1):
+            try:
   
-  - Desenvolvimento do código automacao.py em que todos os CSV's são baixados e substituidos na maquina conforme o ano de utilização do código.
+                auto.download_df(i)
+  
+Aqui temos um For para o código conseguir rodar de forma recursiva baixando o arquivo não importando o em que esteja sendo rodado o código.
+              
+  ### Encriptação da senha do cadastro de Usuário
+ 
+  ### Mapeamento das Tabelas do banco
   
   
- - Desenvolvimento do CRUD de Usuários.
+  
 </details>
   
 
