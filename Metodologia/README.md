@@ -73,11 +73,12 @@ A equipe do Fluffy desenvolveu um software web para a empresa Iacit que possibil
 <details>
 <summary>Front-End</summary>
   
-  <p>- Desenvolvimento das telas:</p>
-  <p>    *Login</p>
-  <p>    *Estatisticas</p>
-  <p>-Estilização e manutenção das telas, para inserção de media queries para a portabilidade para mobile.</p>
-  <p>-Estilização dos graficos das telas de relatórios.</p>
+  ### Desenvolvimento das telas
+  <p>-Implementei o desenvolvimento de telas em um aplicativo Spring Boot utilizando o framework Thymeleaf. Criei as páginas HTML para cada tela desejada, definindo sua estrutura e layout. Integrei as páginas HTML ao aplicativo Spring Boot, utilizando recursos do Thymeleaf para renderizar dados dinâmicos e processar lógica condicional. Implementei a navegação entre as telas e obtive um aplicativo com telas funcionais e interativas.
+    
+  ### Estilização 
+  <p>-Realizei a estilização e manutenção das telas do aplicativo, priorizando a adaptabilidade para dispositivos móveis. Utilizei media queries e técnicas de design responsivo para ajustar o layout e os estilos das telas em diferentes tamanhos de tela. Realizei testes em diversos dispositivos e implementei práticas de manutenção para garantir uma experiência consistente. As telas foram estilizadas de forma responsiva, proporcionando uma experiência de usuário otimizada em dispositivos móveis.</p>
+  <p>-Estilizei os gráficos nas telas de relatórios do aplicativo, utilizando bibliotecas de gráficos para criar visualizações interativas. Apliquei estilos personalizados aos gráficos, garantindo uma aparência profissional e adaptando-os a diferentes tamanhos de tela. Realizei testes em vários dispositivos para garantir uma experiência visual agradável. Os gráficos nas telas de relatórios oferecem uma representação clara e atraente dos dados aos usuários..</p>
 
 </details>
 
@@ -108,8 +109,7 @@ A equipe do Fluffy desenvolveu um software web para a empresa Iacit que possibil
             status.raise_for_status()
         return
 
-  Esse código foi desenvolvido para baixar a base de dados por meio de um URL base e ser passado na variavel o ano em que o código é rodado.
-  Também cria um diretorio "DF/" para cada ano baixado.
+ Esse método baixa um arquivo ZIP de dados históricos de uma URL com base em um ano fornecido como parâmetro. Ele cria um diretório específico para o ano, excluindo-o primeiro se já existir. O arquivo baixado é salvo nesse diretório. O código também registra informações sobre a execução em um arquivo de log chamado "log.txt".
 
     def extract(self, ano: int):
         zip_ref = zipfile.ZipFile("DF/{}.zip".format(ano), "r")
@@ -120,7 +120,10 @@ A equipe do Fluffy desenvolveu um software web para a empresa Iacit que possibil
         print("{} Extraido".format(ano))
         return
 
-  Essa parte do código é feita a extração dos dados quem vem compactados e distribuidos em pastas separadas por ano.
+Ao chamar esse método, os arquivos contidos no arquivo ZIP são extraídos e colocados no diretório específico, facilitando o acesso e a manipulação desses arquivos. A remoção do arquivo ZIP economiza espaço em disco, já que os arquivos já foram extraídos.
+
+Essa funcionalidade pode ser útil em cenários onde você precisa processar ou analisar os dados contidos nos arquivos ZIP baixados, e a extração automatizada simplifica o processo, economizando tempo e esforço.
+  
     @staticmethod
     def auto_run():
 
@@ -136,11 +139,16 @@ A equipe do Fluffy desenvolveu um software web para a empresa Iacit que possibil
   
                 auto.download_df(i)
   
-Aqui temos um For para o código conseguir rodar de forma recursiva baixando o arquivo não importando o em que esteja sendo rodado o código.
+O método estático auto_run cria uma instância da classe Automacao e, em seguida, percorre um loop para executar o método download_df para cada ano de 2020 até o ano atual. Isso automatiza o processo de download dos arquivos ZIP de dados históricos para cada ano, facilitando a execução em lote e evitando a necessidade de chamar manualmente o método download_df para cada ano individualmente.
               
   ### Encriptação da senha do cadastro de Usuário
+  
+  
+Implementei a criptografia de senhas em um aplicativo Spring Boot usando o Spring Security. Utilizei o algoritmo BCrypt para codificar as senhas, garantindo a segurança dos dados. Armazenei as senhas codificadas no banco de dados e, ao fazer login, o Spring Security compara a senha fornecida com a senha codificada para autenticar os usuários. Isso garante a proteção das senhas e a segurança das informações dos usuários.
  
   ### Mapeamento das Tabelas do banco
+  
+  Implementei o mapeamento das tabelas do banco de dados em um aplicativo Spring Boot usando o Spring Data JPA. Defini entidades Java anotadas com @Entity para representar as tabelas. Utilizei anotações como @Column, @Id, @GeneratedValue, @OneToOne, @OneToMany para mapear as colunas e relacionamentos entre as tabelas. Criei interfaces de repositório estendendo JpaRepository para executar operações CRUD. Configurei o provedor de persistência no arquivo application.properties ou application.yml. Durante a inicialização do aplicativo, o Spring Data JPA cria automaticamente as tabelas com base nas entidades definidas. Agora posso interagir com o banco de dados facilmente usando os métodos fornecidos pelos repositórios.
   
   
   
