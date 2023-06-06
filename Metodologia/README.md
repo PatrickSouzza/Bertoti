@@ -4,8 +4,12 @@
 </div>
 
 ## Introdução
-24 anos, estudante do 4º semestre de Banco de Dados pela FATEC de São José dos Campos (Prof. Jessen Vidal) onde por meio de seu projeto integrador que é feito em conjunto com diversas empresas, pude ter contato com clientes e desafios reais que afetam não só empresas de pequeno porte mas até mesmo as multinacionais.
-Ao longo destes 4 semestres venho desenvolvendo não apenas as Hard Skill's mas também as Soft Skill's tendo trabalhado grande parte do tempo em equipes de Metodologia Ágil.
+
+Com 24 anos de idade, sou estudante do 4º semestre do curso de Banco de Dados na FATEC de São José dos Campos - Prof. Jessen Vidal. Nesse programa acadêmico, tive a oportunidade de participar de alguns projetos integradores em parceria com diversas empresas, o que me proporcionou um contato direto com clientes e desafios reais enfrentados tanto por empresas de pequeno porte quanto por multinacionais.
+
+Ao longo dos meus estudos durante esses 4 semestres, concentrei-me não apenas no desenvolvimento de habilidades técnicas (hard skills), mas também no aprimoramento das competências interpessoais (soft skills). Participei ativamente de equipes que utilizam Metodologia Ágil, o que me permitiu adquirir experiência em colaboração, comunicação eficaz e trabalho em equipe.
+
+Estou empenhado em me tornar um profissional completo na área de Banco de Dados e Desenvolvimento de Software, buscando constantemente atualizações e aprimoramentos para acompanhar as demandas do mercado e fornecer soluções eficientes para os desafios enfrentados pelas empresas.
 
 <h3>Para mais informações e contato:</h3>
 
@@ -41,8 +45,7 @@ Ao longo destes 4 semestres venho desenvolvendo não apenas as Hard Skill's mas 
 <details>
 <summary>Banco de Dados</summary>
 
-* Utilizo banco de dados desde 2021, já utilizei mySQL, PostgreeSQL, MariaDB e Oracle. Tenho conhecimentos em comandos DDL, DCL e DML. Tenho Experiência desenvolvendo tabelas, realizando inserção de novos registros, estabelecendo restrições e estipulando diretrizes no banco de dados, além de desempenhar funções administrativas essenciais para sua gestão eficiente.
-
+* Tenho experiência sólida no uso de bancos de dados, incluindo MySQL, PostgreSQL, MariaDB e Oracle desde 2021. Domino os comandos DDL, DCL e DML, permitindo desenvolver tabelas, inserir registros, estabelecer restrições e diretrizes para garantir uma gestão eficiente do banco de dados. Também desempenhei funções administrativas importantes, como monitoramento, backup e recuperação de dados. Possuo habilidades para colaborar efetivamente em equipes e garantir a integridade e qualidade dos dados em projetos.
 </details>
 
 
