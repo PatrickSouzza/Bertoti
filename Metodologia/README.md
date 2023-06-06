@@ -156,6 +156,46 @@ Implementei a criptografia de senhas em um aplicativo Spring Boot usando o Sprin
   
   
 </details>
+
+## Aprendizados Efetivos
+
+### 1.Spring Boot
+* No meu primeiro contato com o Spring Boot, aprendi várias coisas incríveis. Primeiramente, descobri que ele possui uma configuração automática muito poderosa. Fiquei impressionado com a facilidade de iniciar um projeto, pois muitas configurações são feitas automaticamente com base nas dependências que adicionamos.
+* Também aprendi sobre o gerenciamento de dependências com o Maven ou Gradle. O Spring Boot simplifica bastante o processo de inclusão de bibliotecas e garante a compatibilidade das versões automaticamente. 
+* Outro conceito fundamental que aprendi foi a injeção de dependência. O Spring Boot utiliza esse princípio do Spring Framework.
+* Em resumo, minha experiência com o Spring Boot foi incrível. Aprendi sobre a configuração automática, o desenvolvimento ágil, o gerenciamento de dependências, a injeção de dependência, a criação de endpoints RESTful.
+
+### 2.Download PDF
+
+* Utilizar a biblioteca requests para fazer solicitações HTTP e verificar o status da resposta.
+* Utilizar a biblioteca zipfile para extrair o conteúdo de arquivos ZIP.
+* Utilizar a biblioteca os para criar diretórios e excluir diretórios existentes.
+* Utilizar a biblioteca shutil para remover diretórios existentes, mesmo que contenham arquivos.
+* Utilizar a biblioteca logging para registrar informações de execução em um arquivo de log.
+* Criar métodos em uma classe para encapsular e reutilizar funcionalidades relacionadas.
+* Utilizar métodos estáticos para criar um ponto de entrada para a execução automatizada do código.
+* Utilizar loops para iterar sobre uma sequência de valores (no caso, anos) e executar determinado código para cada valor.
+* Utilizar exceções para lidar com erros e garantir a continuidade do programa mesmo quando ocorrem problemas.
+
+### 3.Encriptação da senha do cadastro de Usuário
+* Importância da segurança das senhas dos usuários.
+* Utilização do Spring Security para proteger o acesso aos recursos do aplicativo.
+* Utilização do algoritmo BCrypt para codificar e comparar senhas.
+* Necessidade de armazenar senhas codificadas no banco de dados.
+* Importância da segurança dos dados sensíveis dos usuários.
+* Boas práticas de segurança ao trabalhar com senhas e informações confidenciais.
+* Autenticação de usuários com base na comparação de senhas codificadas.
+
+### 4.Mapeamento das Tabelas do banco
+
+* Com o Spring JPA, aprendi a mapear as tabelas do meu banco de dados com facilidade. Descobri que posso usar anotações como @Entity, @Table, @Column e @Id para definir como minhas entidades Java serão persistidas no banco de dados.
+
+* Além disso, aprendi como mapear relacionamentos entre as entidades, como um-para-um, um-para-muitos e muitos-para-muitos. Usando anotações como @OneToOne, @OneToMany e @ManyToMany, consigo definir esses relacionamentos e deixar que o JPA cuide das associações no banco de dados.
+
+* Outra coisa interessante é que o Spring JPA me permite definir chaves primárias e identificadores usando a anotação @Id. Aprendi sobre diferentes estratégias de geração de identificadores, como @GeneratedValue e @SequenceGenerator, o que me dá flexibilidade ao lidar com as chaves primárias das minhas entidades.
+
+* Com relação às consultas, descobri que posso escrever consultas personalizadas usando a linguagem JPQL ou consultas nativas SQL. Para isso, basta utilizar as anotações @Query e @NamedQuery. Isso me proporciona flexibilidade para realizar consultas complexas de maneira eficiente.
+
   
 
 
